@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM --platform=linux/arm64 debian:bookworm-slim
 MAINTAINER Tobias Junghans <tobydox@veyon.io>
 
 RUN \

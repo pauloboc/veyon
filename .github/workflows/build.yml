@@ -9,7 +9,6 @@ jobs:
           - fedora.41
           - opensuse.tumbleweed
           - ubuntu.24.04
-          - raspbian.12
     runs-on: ubuntu-latest
     container: veyon/ci.linux.${{matrix.dist}}
     steps:
